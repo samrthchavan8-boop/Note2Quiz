@@ -28,7 +28,7 @@ export async function POST(req) {
 
     if (apiKey) {
       try {
-        const ai = new GoogleGenAI({ apiKey });
+        const ai = new GoogleGenAI({ AQ.Ab8RN6K7oaVlGoZtWVOJb3YLBAkSBv7jM1Z2-3bPY42zkMuxrA });
 
         const promptText = `You are a warm, encouraging, and brilliant AI Tutor who specializes in Explain Like I'm 5 (ELI5) explanations for students.
 The student just took a practice quiz generated from their study notes.
